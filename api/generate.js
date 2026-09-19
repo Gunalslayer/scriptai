@@ -3,7 +3,7 @@
    The key is read from the ANTHROPIC_API_KEY environment
    variable (set in Vercel). It never appears in the page.
    ============================================================ */
-const MODEL = "claude-sonnet-4-6";
+const MODEL = "claude-sonnet-5";
 const MAX_TOKENS = 1000;
 
 const SYSTEM_PROMPT = `You are a short-form video strategist for small businesses.
